@@ -1,0 +1,39 @@
+country,code,S,yretro1,yretro2,ypredict1,ypredict2,popfile,mortfile,pathdata
+Australia,AUS,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Austria,AUT,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Belgium,BEL,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Bulgaria,BGR,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Canada,CAN,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Chile,CHL,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Croatia,HRV,2,2001,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Czechia,CZE,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Denmark,DNK,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Estonia,EST,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Finland,FIN,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+France,FRATNP,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Germany,DEUTNP,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Greece,GRC,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Hong Kong,HKG,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Hungary,HUN,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Ireland,IRL,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Israel,ISR,2,2000,2016,2017,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Italy,ITA,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Japan,JPN,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Korea,KOR,2,2003,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Latvia,LVA,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Lithuania,LTU,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Netherlands,NLD,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+New Zealand,NZL_NP,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Norway,NOR,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Poland,POL,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Portugal,PRT,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Slovakia,SVK,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Slovenia,SVN,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Spain,ESP,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Sweden,SWE,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Switzerland,CHE,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Taiwan,TWN,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+England & Wales,GBRTENW,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Scotland,GBR_SCO,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+Northern Ireland,GBR_NIR,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/
+U.S.A.,USA,2,2000,2019,2020,2021,Exposures_1x1.txt,Mx_1x1.txt,Input_Data/

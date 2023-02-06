@@ -1,4 +1,4 @@
-# =========== Predicing mortality by age and sex for target years ==========================================
+# =========== Predicting mortality by age and sex for target years ==========================================
 
 # Function for computation of a complete life table FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF_BEGIN
 
