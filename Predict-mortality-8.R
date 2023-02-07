@@ -1,4 +1,5 @@
 # =========== Predicting mortality by age and sex for target years ==========================================
+# Vladimir M. Shkolnikov, 07-02-2023
 
 # Function for computation of a complete life table FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF_BEGIN
 

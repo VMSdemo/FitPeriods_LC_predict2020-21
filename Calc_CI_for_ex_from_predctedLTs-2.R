@@ -1,5 +1,5 @@
 # Computation of CIs for life expectancy from .csv files like "LTabs4-retro2015-19_2020-21m.csv" MMMMMMMMMMMMM_BEGIN
-
+# Vladimir M. Shkolnikov, 07-02-2023
 
 
 # Function for computation of a complete life table FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF_BEGIN
