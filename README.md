@@ -56,16 +56,16 @@ Each line provides parameters for calculation concerning one country, one sex, o
 period, and the prognosis period. 
 
 In each line of the file, the comma-separated fields are: 
-    *country* (e.g. Australia), 
-    *code* (e.g. AUS),
-    *s* – sex (1-females, 2-males), 
-    *yretro1* – the first year of the reference period (e.g. 2000), 
-    *yretro2* – the last year of the reference period (e.g. 2019), 
-    *ypredict1* – the first year of the prediction period (e.g. 2000), 
-    *ypredict2* – the last year of the prediction period, 
-    *popfile* – HMD file of population exposures by single-year ages (e.g. *Exposures_1x1.txt*), 
-    *mortfile* – the name of HMD file of death rates by single-year ages (e.g. *Mx_1x1.txt*), 
-    *pathdata* – path to input data files (e.g. *Input_Data/* ). 
+    *country* (e.g. Australia),   
+    *code* (e.g. AUS),  
+    *s* – sex (1-females, 2-males),   
+    *yretro1* – the first year of the reference period (e.g. 2000),   
+    *yretro2* – the last year of the reference period (e.g. 2019),   
+    *ypredict1* – the first year of the prediction period (e.g. 2000),   
+    *ypredict2* – the last year of the prediction period,   
+    *popfile* – HMD file of population exposures by single-year ages (e.g. *Exposures_1x1.txt*),   
+    *mortfile* – the name of HMD file of death rates by single-year ages (e.g. *Mx_1x1.txt*),   
+    *pathdata* – path to input data files (e.g. *Input_Data/* ).   
 
 The example file HMD_Mx_Px_data.csv determines calculations for males in 38 HMD populations with 
 the retrospective period 2000-2019 and prognosis period 2020-2021 with all the population-exposure 
@@ -91,18 +91,18 @@ period. Our example: output file *Dev4-ex-retro2000-19_2019m.csv*.  The name of 
 designates something like “Deviations. Life expectancy values. Reference period 2000-2019”. 
 
 The file has the following comma-separated fields:
-    *CNTR* – country code (e.g. AUS), 
-    *SEX* – sex (f or m), 
-    *Yretro1* – the first year of the reference period (e.g. 2000), 
-    *Yretro2* – the last year of the reference period (e.g. 2019), 
-    *Mean_dxx_obs* – the mean (concerning age) of the observed d(x)*x values in Yretro2 (e.g. 2019),
-    *Mean_dxx_fit* – the mean of the model d(x)*x values, 
-    *RMSD* – the root mean squared deviation between the observed and the model d(x)x values in
-             *Yretro2* (e.g. 2019), 
-    *e0_obs* – the life expectancy at birth observed in Yretro2 (e.g. 2019), 
-    *e0_fit* – the model life expectancy at birth in Yretro2 (e.g. 2019),
-    *e15_obs, e15_fit, e60_obs, e60_fit, e80_obs, e80_fit, e90_obs, and e90_fit* – the observed 
-      and the model life expectancies at ages 15, 60, 80, and 90 years. 
+    *CNTR* – country code (e.g. AUS),   
+    *SEX* – sex (f or m),   
+    *Yretro1* – the first year of the reference period (e.g. 2000),   
+    *Yretro2* – the last year of the reference period (e.g. 2019),   
+    *Mean_dxx_obs* – the mean (concerning age) of the observed d(x)*x values in Yretro2 (e.g. 2019),  
+    *Mean_dxx_fit* – the mean of the model d(x)*x values,   
+    *RMSD* – the root mean squared deviation between the observed and the model d(x)x values in  
+             *Yretro2* (e.g. 2019),   
+    *e0_obs* – the life expectancy at birth observed in Yretro2 (e.g. 2019),   
+    *e0_fit* – the model life expectancy at birth in Yretro2 (e.g. 2019),  
+    *e15_obs, e15_fit, e60_obs, e60_fit, e80_obs, e80_fit, e90_obs, and e90_fit* – the observed   
+      and the model life expectancies at ages 15, 60, 80, and 90 years.   
 
 *Dev4-ex-retro2000-19_2019m.csv* contains the observed and the model life expectancies for the 
 year 2019 for 38 HMD populations corresponding to the input data described above.
@@ -112,22 +112,22 @@ Our example *LTabs4-retro2000-19_2020-21m.csv*: The filename designates “Life 
 period 2000-2019. Prediction for 2020 and 2021. Males”. 
 
 The file has the following comma-separated fields:
-    *Popx* – country code (e.g. AUS),
-    *YEAR* – year (e.g. 2020 or 2021),
-    *Sexx* – sex (m or f),
-    *x* – age (0, 1, 2, …, 99, 100+),
-    *nx* – width of the age interval,
-    *ax* – share of the age interval [x, x+1) lived by those who are dying in this interval, 
-    *mx* – central death rate in the age interval [x, x+1) and 100+,
-    *qx* – probability of dying in the age interval [x, x+1), equals 1 for 100+,
-    *lx* – survival to age x out of the radix=100000,
-    *dx* – deaths in the age interval [x, x+1) and 100+,
-    *Lx* – person-years lived within the age interval [x, x+1) and 100+,
-    *Tx* – person-years lived at age x and all older ages,
-    *ex* – life expectancy at age x,
-    *mx_l* - lower 95%CI (uncertainty of prediction) for the death rate mx,
-    *mx_u* – upper 95%CI (uncertainty of prediction) for the death rate mx, 
-    *mx_s* – standard error for the death rate mx.
+    *Popx* – country code (e.g. AUS),  
+    *YEAR* – year (e.g. 2020 or 2021),  
+    *Sexx* – sex (m or f),  
+    *x* – age (0, 1, 2, …, 99, 100+),  
+    *nx* – width of the age interval,  
+    *ax* – share of the age interval [x, x+1) lived by those who are dying in this interval,   
+    *mx* – central death rate in the age interval [x, x+1) and 100+,  
+    *qx* – probability of dying in the age interval [x, x+1), equals 1 for 100+,  
+    *lx* – survival to age x out of the radix=100000,  
+    *dx* – deaths in the age interval [x, x+1) and 100+,  
+    *Lx* – person-years lived within the age interval [x, x+1) and 100+,  
+    *Tx* – person-years lived at age x and all older ages,  
+    *ex* – life expectancy at age x,  
+    *mx_l* - lower 95%CI (uncertainty of prediction) for the death rate mx,  
+    *mx_u* – upper 95%CI (uncertainty of prediction) for the death rate mx,   
+    *mx_s* – standard error for the death rate mx.  
 
 *LTabs4-retro2000-19_2020-21m.csv* provides forecasted life tables for 2020 and 2021 for males 
 in 38 populations.  
@@ -161,8 +161,8 @@ The *Calc_CI_for_ex_from_predctedLTs-2.R* code produces one output file (e.g. *L
 
 It has the same fields as the input file plus three additional quantities:
     *EE* – mean simulated life expectancy at age x,
-    *EElo* – lower simulated 95%CI for EE,
-    *EEhi* – upper simulated 95%CI for EE. 
+    *EElo* – lower simulated 95%CI for EE,  
+    *EEhi* – upper simulated 95%CI for EE.   
 
 #### References
 
