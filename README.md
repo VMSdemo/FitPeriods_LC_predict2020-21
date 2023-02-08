@@ -35,17 +35,17 @@ Please note that the code depends on the following R packages:
 --- *Predict_Mort_LC* (in the file Predict-mortality-8.R) for prediction of annual mortality
      for a given prediction period, sex and a country.
      
-      Parameters of the function (see also example with multiple countries below):
-        *PathData* - path to data files ending with "/" 
-        *CNTR* - country abbreviation (as in the HMD)
-        *s* - sex 1-f  2-m
-        *Mortfile* - name of the mortality file 1x1,
-        *Popfile* - name of the population or pop exposure file 1x1,
-        *Yretro1* - first year of the retrospective period,
-        *Yretro2* - last year of the retrospective period,
-        *Ypredict1* - first year of the target period,
-        *Ypredict2* - last year of the target period,
-        *maxAge* - maximal age for prediction and all mortality and life table columns.
+Parameters of the function (see also example with multiple countries below):
+   *PathData* - path to data files ending with "/" ,
+   *CNTR* - country abbreviation (as in the HMD),
+   *s* - sex 1-f  2-m,
+   *Mortfile* - name of the mortality file 1x1,
+   *Popfile* - name of the population or pop exposure file 1x1,
+   *Yretro1* - first year of the retrospective period,
+   *Yretro2* - last year of the retrospective period,
+   *Ypredict1* - first year of the target period,
+   *Ypredict2* - last year of the target period,
+   *maxAge* - maximal age for prediction and all mortality and life table columns.
 
 Input Data 
 
