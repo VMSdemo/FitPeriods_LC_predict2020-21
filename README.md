@@ -1,5 +1,4 @@
-## Lee-Carter forecasting of life expectancy by age, sex, and country in 2020 and 2021 and 
-## assessment of the model fit in 2019 with different reference periods  
+## Lee-Carter forecasting of life expectancy by age, sex, and country in 2020 and 2021 and assessment of the model fit in 2019 with different reference periods  
 
 This repository contains the codes used by the study 
 “What reference period should be used in the estimation of life expectancy losses due to the 
