@@ -42,7 +42,7 @@ The file contains one function:
 Parameters of the function (see also example with multiple countries below):  
    *PathData* - relative path to country-data files ending with "/" ,  
    *CNTR* - country abbreviation (as in the HMD),  
-   *s* - sex 1-f  2-m,  
+   *s* - sex 1 for females  2 for males,  
    *Mortfile* - name of the mortality file 1x1,  
    *Popfile* - name of the population or pop exposure file 1x1,  
    *Yretro1* - first year of the retrospective period,  
@@ -165,7 +165,7 @@ It has the same fields as the input file plus three additional quantities:
     *EEhi* – upper simulated 95%CI for EE. 
 
 
-#### Function *LTabs.R* stored in a separate file 
+#### Function *LTabs.R*   
 
 *LTabC* serves for computing a complete life table from a vector of single-year age-specific death rates with parameters:  
      *mx* - a vector of age-specific mortality rates for ages 0, 1, 2, …, 100+
