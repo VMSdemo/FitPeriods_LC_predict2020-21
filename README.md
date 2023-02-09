@@ -165,7 +165,7 @@ It has the same fields as the input file plus three additional quantities:
     *EEhi* – upper simulated 95%CI for EE. 
 
 
-#### Function *LTabs.R*   
+#### Function *LTabC.R*   
 
 *LTabC* serves for computing a complete life table from a vector of single-year age-specific death rates with parameters:  
      *mx* - a vector of age-specific mortality rates for ages 0, 1, 2, …, 100+
