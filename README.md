@@ -2,7 +2,7 @@
 
 This repository contains the codes used by the study 
 “What reference period should be used in the estimation of life expectancy losses due to the 
-pandemic of 2020-21? An experiment on 38 mortality series.“ 
+pandemic of 2020-21? An experiment on 37 mortality series.“ 
 by Vladimir M. Shkolnikov and Dmitry A. Jdanov
 
 The estimation in the paper is carried out in two steps. Both steps utilize function *LTabsC.R*.
